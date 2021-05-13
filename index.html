@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="images/favicon.png" rel="icon" />
+
+    
+    <meta name="viewport" content="width=device-width">
+
+
+    <title>Demogapic</title>
+  </head>
+
+  <body class="container">
+    <aside id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn">&#60;</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="table.html">Table</a></li>
+      </ul>
+    </aside>
+
+    <div id="main">
+      <!-- You shold always use a button for component like this. should i change this to button rather than span then? -->
+      <span class="openNav" style="font-size: 30px; cursor: pointer"
+        >&#9776; Demogapic</span
+      >
+    </div>
+    <main class="content">
+      <div class="intro">
+        <h1>Evidence. Insight. Impact.</h1>
+        <p>
+          Demogapic allows easy access to data so that users can view the
+          inequality among certain demographics at a global scale and make
+          positive change based on the metrics provided.
+        </p>
+        <a href="table.html">
+          <button class="buttonOne">TABLE</button>
+        </a>
+      </div>
+      <div id="animation"></div>
+    </main>
+    <script src="lottie.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
